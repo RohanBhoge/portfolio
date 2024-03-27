@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bg-body: #111111;
+  --bg-containt: #1e1e1f;
+  --bg-menu: var(--bg-body);
+  --border-rad: ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-body);
+  overflow-x: hidden;
+}
+/* 
+    1. Container
+*/
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100vw;
+  height: auto;
+  background-color: var(--bg-body);
+  font-family: "Poppins", sans-serif;
+}
+
+/* 
+    1.1 Left
+*/
+.left {
+  position: relative;
+  margin: 5px;
+  /* padding: 0 !important; */
+  width: 250px;
+  height: 750px;
+  background-color: var(--bg-containt);
+  border-radius: 15px;
+  margin-left: 70px;
+}
+
+/* @keyframes Transition {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes _left {
+  0%{
+    height: ;
+  }
+} */
+/* 1.1.1 Intro */
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+}
+#name {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.img {
+  width: 125px;
+  height: 125px;
+  border-radius: 23px;
+  background-color: #373738;
+}
+
+.img img {
+  border-radius: 23px;
+  width: 125px;
+  height: 125px;
+}
+.name {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: #cbcbcb;
+}
+
+.profession {
+  font-size: 14px;
+  width: 130px;
+  height: 20px;
+  background-color: #2b2b2c;
+  color: #cbcbcb;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.sepration {
+  position: absolute;
+  margin: 30px;
+  top: 275px;
+  width: 190px;
+  color: #303030;
+  border: 1.5px #303030 solid;
+}
+/* 
+  1.1.2. Contact Details.
+*/
+
+.contact {
+  display: flex;
+  margin: 33px;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.logo {
+  width: 55px;
+  flex-shrink: 0;
+  height: 55px;
+  background-color: #202022;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.detail h6 {
+  color: #9a9a9a;
+}
+.detail p {
+  color: #f9f9f9;
+}
+
+.contact_detail {
+  margin-top: 80px;
+}
+#contactlink {
+  position: absolute;
+  bottom: 10px;
+  right: 80px;
+  cursor: pointer;
+}
+/* 
+  1.1.4. transition 
+*/
+
+.transition {
+  display: block;
+}
+/* 
+  1.1.3. show_more
+*/
+.show_more {
+  display: none;
+}
+
+/* 
+  1.2. Right.
+*/
+
+.right {
+  position: relative;
+  padding: 0 !important;
+  width: calc(100vw - 400px);
+  height: auto;
+  background-color: var(--bg-containt);
+  border-radius: 15px;
+  margin: 5px;
+}
+
+/* 
+  1.2.1. Navbar.
+*/
+
+.navbar {
+  position: absolute;
+  width: 500px;
+  height: 45px;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: rgb(43, 43, 44);
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ol {
+  display: flex;
+  gap: 40px;
+  color: #a6a6a6;
+  list-style: none;
+}
+
+/* 
+  1.2.2. About_content
+*/
+
+.about {
+  margin: 20px;
+  margin-top: 50px;
+  color: #cbcbcb;
+}
+/* 
+1.2.3. Work
+*/
+.about_content h2 {
+  margin-bottom: 20px;
+}
+.about_content p {
+  margin-left: 20px;
+}
+.work h2 {
+  margin-top: 70px;
+}
+
+.work_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.wcontent {
+  margin: 20px;
+  color: #a6a6a6;
+  min-width: 90px;
+}
+.w_contact {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.wlogo {
+  width: 55px;
+  flex-shrink: 0;
+  height: 55px;
+  background-color: #202022;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.detail h6 {
+  color: #9a9a9a;
+}
+.detail p {
+  color: #f9f9f9;
+}
+
+.wdetail h4 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* 
+Media Quaries.
+*/
+
+@media (max-width: 1200px) {
+  .left {
+    margin-left: 10px;
+  }
+  .right {
+    width: calc(100vw - 280px);
+  }
+}
+
+@media (max-width: 1000px) {
+  /* 
+    1. Container
+*/
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* 
+    1.1 Left
+*/
+
+  .left {
+    position: relative;
+    width: calc(100vw - 140px);
+    margin-left: 70px;
+    height: 165px;
+    /* animation: _left 1s ease-in-out; */
+  }
+  .transition {
+    display: none;
+    opacity: 0;
+  }
+
+  @keyframes Transition0 {
+    from {
+      opacity: 0;
+      display: none;
+    }
+
+    to {
+      opacity: 1;
+      display: block;
+    }
+  }
+
+  @keyframes Transition1 {
+    from {
+      opacity: 1;
+      display: block;
+    }
+
+    to {
+      opacity: 0;
+      display: none;
+    }
+  }
+
+  @keyframes _left0 {
+    from {
+      height: 165px;
+    }
+
+    to {
+      height: 400px;
+    }
+  }
+
+  @keyframes _left1 {
+    from {
+      height: 400px;
+    }
+
+    to {
+      height: 165px;
+    }
+  }
+
+  .animationTransition0 {
+    animation: Transition0 0.5s ease-in-out forwards;
+  }
+
+  .animationTransition1 {
+    animation: Transition1 0.5s ease-in-out forwards;
+  }
+
+  .animationLeft0 {
+    animation: _left0 1s ease-in-out forwards;
+  }
+
+  .animationLeft1 {
+    animation: _left1 1s ease-in-out forwards;
+  }
+
+  /* 1.1.1 Intro */
+  .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 0px;
+    margin: 20px;
+  }
+  #name {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+  }
+  .sepration {
+    position: absolute;
+    margin: 0px;
+    margin-left: 20px;
+    top: 165px;
+    width: calc(100vw - 185px);
+  }
+  .sepration1 {
+    position: absolute;
+    margin-left: 20px;
+    bottom: 65px;
+    width: calc(100vw - 185px);
+    color: #303030;
+    border: 1.5px #303030 solid;
+  }
+  /* 
+  1.1.2. Contact Details.
+*/
+  .contact_detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    margin: 40px 0px 20px 20px;
+  }
+
+  .contact {
+    display: flex;
+    margin: 3px;
+    gap: 30px;
+    overflow: hidden;
+  }
+
+  #contactlink {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    cursor: pointer;
+  }
+  .work_content {
+    grid-template-columns: 1fr;
+  }
+  /* 
+    1.1.3. show more
+  */
+
+  .show_more {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    width: 120px;
+    height: 23px;
+    background-color: rgb(43, 43, 44);
+    color: rgb(203, 156, 25);
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  /* 
+  1.2. Right.
+*/
+
+  .right {
+    position: static;
+    width: calc(100vw - 140px);
+    height: auto;
+    margin-left: 70px;
+  }
+
+  /* 
+  1.2.1. Navbar.
+*/
+
+  .navbar {
+    width: calc(100vw - 140px);
+    position: fixed;
+    left: 70px;
+    top: auto;
+    bottom: 0;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 15px;
+    opacity: 0.94;
+  }
+}
+
+@media (max-width: 700px) {
+  .left {
+    width: calc(100vw - 10px);
+    margin: 5px;
+  }
+  .right {
+    width: calc(100vw - 10px);
+    margin: 5px;
+  }
+  .navbar {
+    width: calc(100vw - 10px);
+    left: 5px;
+  }
+  .sepration1 {
+    width: calc(100vw - 50px);
+  }
+  .sepration {
+    width: calc(100vw - 50px);
+  }
+}
+
+@media (max-width: 480px) {
+  .left {
+    height: 115px;
+  }
+
+  @keyframes _left0 {
+    from {
+      height: 115px;
+    }
+
+    to {
+      height: 300px;
+    }
+  }
+
+  @keyframes _left1 {
+    from {
+      height: 300px;
+    }
+
+    to {
+      height: 115px;
+    }
+  }
+
+  .animationLeft0 {
+    animation: _left0 1s ease-in-out forwards;
+  }
+
+  .animationLeft1 {
+    animation: _left1 1s ease-in-out forwards;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  #name {
+    gap: 10px;
+  }
+
+  .sepration {
+    top: 115px;
+  }
+
+  .sepration1 {
+    bottom: 40px;
+  }
+
+  .img,
+  .img img {
+    width: 75px;
+    height: 75px;
+    border-radius: 18px;
+  }
+
+  .profession {
+    width: 120px;
+    height: 18px;
+    font-size: 12px;
+  }
+  #contactlink {
+    bottom: 0px;
+  }
+  #contactlink img {
+    height: 25px;
+    width: 25px;
+  }
+  /* 
+  1.1.2. Contact Details.
+  */
+
+  .logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+  }
+  .contact {
+    gap: 10px;
+  }
+  .detail p {
+    font-size: 12px;
+  }
+
+  /* 
+  1.1.3. show more
+  */
+
+  /* .show_more {
+    font-display: none; */
+  */
+    /* display: flex;
+    width: 40px;
+    height: 23px;
+  }
+
+  /* 
+  1.2. Right.
+*/
+  .right {
+    margin-top: 0;
+  }
+  .container {
+    gap: 5px;
+  }
+  .about {
+    margin: 10px;
+    margin-top: 20px;
+    color: #cbcbcb;
+  }
+
+  /* 
+  1.2. Right.
+*/
+
+  /* 
+  1.2.1. Navbar.
+*/
+
+  .navbar {
+    height: 30px;
+  }
+
+  .navbar ol li {
+    font-size: x-small;
+  }
+  .navbar ol {
+    gap: 20px;
+  }
+
+  /* 
+  1.2.2. About_content
+*/
+
+  .about {
+    margin: 20px 5px;
+  }
+
+  /* 
+1.2.3. Work
+*/
+  .about_content h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .about_content p {
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 18px;
+    text-align: justify;
+  }
+
+  .work h2 {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+
+  .work_content {
+    grid-template-columns: 1fr;
+  }
+  .wcontent {
+    margin: 10px;
+  }
+  .w_contact {
+    gap: 10px;
+  }
+  .wlogo {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+  }
+
+  .wdetail p {
+    font-size: 12px;
+  }
+
+  .wdetail h4 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .left {
+    height: auto;
+  }
+
+  /* 
+  1.1.4. show more
+*/
+
+  .show_more {
+    width: 40px;
+  }
+
+  @keyframes _left0 {
+    from {
+      height: 115px;
+    }
+
+    to {
+      height: 425px;
+    }
+  }
+
+  @keyframes _left1 {
+    from {
+      height: 425px;
+    }
+
+    to {
+      height: 115px;
+    }
+  }
+
+  .animationLeft0 {
+    animation: _left0 1s ease-in-out forwards;
+  }
+
+  .animationLeft1 {
+    animation: _left1 1s ease-in-out forwards;
+  }
+
+  .contact_detail {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    margin: 40px 0px 20px 20px;
+  }
+}
