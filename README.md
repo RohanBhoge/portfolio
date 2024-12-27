@@ -84,9 +84,9 @@ The project is deployed and accessible at **[Your Deployment Link]**.
 
 Feel free to reach out to me through the following channels:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [YourGitHub](https://github.com/YourGitHub)
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/yourlinkedin)
+- **Email**: bhogerohan60@gmail.com
+- **GitHub**: [[YourGitHub](https://github.com/YourGitHub)](https://github.com/RohanBhoge)
+- **LinkedIn**: [[Your LinkedIn](https://www.linkedin.com/in/yourlinkedin)](https://www.linkedin.com/in/rohanbhoge/)
 
 ---
 
