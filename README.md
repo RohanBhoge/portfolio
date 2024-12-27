@@ -76,7 +76,7 @@ After deploying or running the Portfolio project locally, users can interact wit
 ---
 
 ## Deployment
-The project is deployed and accessible at (https://rohanbhoge.github.io/portfolio/).
+The project is deployed and accessible at https://rohanbhoge.github.io/portfolio/.
 
 ---
 
@@ -85,8 +85,8 @@ The project is deployed and accessible at (https://rohanbhoge.github.io/portfoli
 Feel free to reach out to me through the following channels:
 
 - **Email**: bhogerohan60@gmail.com
-- **GitHub**: [[YourGitHub](https://github.com/YourGitHub)](https://github.com/RohanBhoge)
-- **LinkedIn**: [[Your LinkedIn](https://www.linkedin.com/in/yourlinkedin)](https://www.linkedin.com/in/rohanbhoge/)
+- **GitHub**: [[GitHub](https://github.com/YourGitHub)](https://github.com/RohanBhoge)
+- **LinkedIn**: [[LinkedIn](https://www.linkedin.com/in/yourlinkedin)](https://www.linkedin.com/in/rohanbhoge/)
 
 ---
 
