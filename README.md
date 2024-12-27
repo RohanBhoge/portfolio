@@ -76,7 +76,7 @@ After deploying or running the Portfolio project locally, users can interact wit
 ---
 
 ## Deployment
-The project is deployed and accessible at **[Your Deployment Link]**.
+The project is deployed and accessible at (https://rohanbhoge.github.io/portfolio/).
 
 ---
 
