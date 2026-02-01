@@ -8,6 +8,17 @@
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
+## 📸 Gallery
+
+<p align="center">
+  <img src="Frontend/src/assets/image.png" alt="Portfolio Home" width="45%" />
+  <img src="Frontend/src/assets/image copy.png" alt="Portfolio Projects" width="45%" />
+</p>
+<p align="center">
+  <img src="Frontend/src/assets/image copy 2.png" alt="Portfolio Skills" width="45%" />
+  <img src="Frontend/src/assets/image copy 3.png" alt="Portfolio Contact" width="45%" />
+</p>
+
 ## 👋 About Me
 
 I am **Rohan Bhoge**, a **Full Stack Engineer** based in **Pune, Maharashtra**.
@@ -68,10 +79,10 @@ Clone the project and start the development server:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/RohanBhoge/portfolio-app.git
+git clone https://github.com/RohanBhoge/portfolio.git
 
 # 2. Navigate to project directory
-cd portfolio-app
+cd portfolio/Frontend
 
 # 3. Install dependencies
 npm install
