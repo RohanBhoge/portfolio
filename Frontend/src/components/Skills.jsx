@@ -5,7 +5,7 @@ import { SKILLS } from '../constants/data';
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-gray-900 relative overflow-hidden">
+    <section id="skills" className="py-20 bg-gray-900 relative overflow-hidden snap-start">
       {/* Background Decor */}
       <div className="absolute top-1/4 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl"></div>

@@ -6,7 +6,7 @@ import { PROJECTS } from '../constants/data';
 
 const Projects = () => {
     return (
-        <section id="projects" className="py-20 bg-gray-950">
+        <section id="projects" className="py-20 bg-gray-950 snap-start">
             <div className="container mx-auto px-6">
                 <SectionTitle title="Featured Projects" subtitle="Portfolio" />
 
@@ -28,7 +28,7 @@ const Projects = () => {
                                     alt={project.title}
                                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                                 />
-                                
+
                                 {/* Hover Buttons */}
                                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
                                     <a
@@ -51,11 +51,11 @@ const Projects = () => {
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
                                 <p className="text-gray-400 text-sm mb-4 line-clamp-2">{project.description}</p>
-                                
+
                                 <div className="flex flex-wrap gap-2">
                                     {project.tech.map((tech) => (
-                                        <span 
-                                            key={tech} 
+                                        <span
+                                            key={tech}
                                             className="px-3 py-1 bg-gray-800 text-blue-400 text-xs font-medium rounded-full border border-gray-700"
                                         >
                                             {tech}

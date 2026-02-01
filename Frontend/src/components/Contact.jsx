@@ -33,7 +33,7 @@ const Contact = () => {
     e.preventDefault();
     if (validate()) {
       setIsSubmitting(true);
-      
+
       // EmailJS Service
       emailjs.sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -43,16 +43,16 @@ const Contact = () => {
           publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
         }
       )
-      .then(() => {
-        setIsSubmitting(false);
-        setIsSent(true);
-        setFormData({ name: '', email: '', message: '' });
-        setTimeout(() => setIsSent(false), 3000);
-      }, (error) => {
-        console.error('FAILED...', error.text);
-        setIsSubmitting(false);
-        // Optionally handle error state here
-      });
+        .then(() => {
+          setIsSubmitting(false);
+          setIsSent(true);
+          setFormData({ name: '', email: '', message: '' });
+          setTimeout(() => setIsSent(false), 3000);
+        }, (error) => {
+          console.error('FAILED...', error.text);
+          setIsSubmitting(false);
+          // Optionally handle error state here
+        });
     }
   };
 
@@ -65,13 +65,13 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gray-950">
+    <section id="contact" className="py-20 bg-gray-950 snap-start">
       <div className="container mx-auto px-6">
         <SectionTitle title="Get In Touch" subtitle="Contact" />
 
         <div className="flex flex-col md:flex-row gap-12 max-w-5xl mx-auto">
           {/* Contact Info */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -93,7 +93,7 @@ const Contact = () => {
                   <p className="text-sm text-gray-400">{PROFILE.email}</p>
                 </div>
               </div>
-              
+
               <div className="flex items-center gap-4 text-gray-300">
                 <div className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center text-blue-400">
                   <MapPin size={20} />
@@ -107,7 +107,7 @@ const Contact = () => {
           </motion.div>
 
           {/* Form */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}

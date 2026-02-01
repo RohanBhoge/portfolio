@@ -6,7 +6,7 @@ import { Briefcase } from 'lucide-react';
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-gray-900">
+    <section id="experience" className="py-20 bg-gray-900 snap-start">
       <div className="container mx-auto px-6">
         <SectionTitle title="Experience" subtitle="My Journey" />
 
@@ -16,7 +16,7 @@ const Experience = () => {
 
           <div className="space-y-12">
             {EXPERIENCE.map((exp, index) => (
-              <motion.div 
+              <motion.div
                 key={exp.id}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
