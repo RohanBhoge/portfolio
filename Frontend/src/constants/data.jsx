@@ -52,6 +52,15 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
+    id: 3,
+    title: "Fin-Friend: AI-Powered Financial Health Chatbot \ud83e\udd16",
+    description: "An intelligent financial assistant utilizing RAG (Retrieval-Augmented Generation) and LangChain to provide personalized financial advice. It leverages Gemini API and Hugging Face models to process user queries and deliver real-time financial health insights.",
+    tech: ["Python", "Streamlit", "Gemini API", "LangChain", "RAG", "Hugging Face"],
+    codeLink: "https://github.com/RohanBhoge/fin-friend",
+    liveLink: "https://fin-friend-ol9qz4uzxeswhypx5avvza.streamlit.app/",
+    image:"https://images.unsplash.com/photo-1611606063065-ee7946f0787a?q=80&w=2074&auto=format&fit=crop" 
+  },
+  {
     id: 1,
     title: "QuickCart - Full-Stack E-commerce Website",
     description: "A comprehensive e-commerce solution featuring a dynamic product catalog, secure user authentication, and a streamlined checkout process. Integrated MongoDB for scalable data management and Node.js for high-performance server-side logic.",
@@ -68,15 +77,6 @@ export const PROJECTS = [
     codeLink: "https://github.com/RohanBhoge/vidtube",
     liveLink: "https://vidtube-7y3x.vercel.app/",
     image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=2000&auto=format&fit=crop"
-  },
-  {
-    id: 3,
-    title: "Fin-Friend: AI-Powered Financial Health Chatbot 🤖",
-    description: "An intelligent financial assistant utilizing RAG (Retrieval-Augmented Generation) and LangChain to provide personalized financial advice. It leverages Gemini API and Hugging Face models to process user queries and deliver real-time financial health insights.",
-    tech: ["Python", "Streamlit", "Gemini API", "LangChain", "RAG", "Hugging Face"],
-    codeLink: "https://github.com/RohanBhoge/fin-friend",
-    liveLink: "https://fin-friend-ol9qz4uzxeswhypx5avvza.streamlit.app/",
-    image:"https://images.unsplash.com/photo-1611606063065-ee7946f0787a?q=80&w=2074&auto=format&fit=crop" 
   }
 ];
 export const EXPERIENCE = [
