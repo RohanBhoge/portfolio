@@ -57,7 +57,7 @@ export const PROJECTS = [
     description: "An intelligent financial assistant utilizing RAG (Retrieval-Augmented Generation) and LangChain to provide personalized financial advice. It leverages Gemini API and Hugging Face models to process user queries and deliver real-time financial health insights.",
     tech: ["Python", "Streamlit", "Gemini API", "LangChain", "RAG", "Hugging Face"],
     codeLink: "https://github.com/RohanBhoge/fin-friend",
-    liveLink: "https://fin-friend-ol9qz4uzxeswhypx5avvza.streamlit.app/",
+    liveLink: "https://fin-friend.vercel.app/",
     image:"https://images.unsplash.com/photo-1611606063065-ee7946f0787a?q=80&w=2074&auto=format&fit=crop" 
   },
   {
